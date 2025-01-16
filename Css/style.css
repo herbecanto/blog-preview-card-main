@@ -136,13 +136,15 @@ main {
 .card-image {
   align-content: center;
   justify-items: center;
+  border-radius: 20px;
+  padding-bottom: 15px;
 }
 .card-image img {
   width: inherit;
   height: 100%;
   object-fit: cover;
+
   border-radius: 20px;
-  padding-bottom: 15px;
 }
 
 .card-main-content .contend-head p:first-child {
@@ -193,4 +195,9 @@ footer .attribution {
   width: 100%;
   display: flex;
   justify-content: center;
+}
+@media (min-width: 1440px) {
+  .card-container {
+    width: 400px;
+  }
 }
